@@ -9,8 +9,8 @@ function resposta() {
   let número_de_caráctéres = input.value.length
   
  if (número_de_caráctéres % 2 === 0) {
-   texto.textContent = "é verdade!"
+   texto.textContent = "é verdade!/sim!"
  } else {
-   texto.textContent = "é mentira"
+   texto.textContent = "é mentira/não"
  }
 }
